@@ -15,7 +15,7 @@
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 </head>
 <body>
   <div class="container">
@@ -26,7 +26,6 @@
         <div class="best-container">0</div>
       </div>
     </div>
-
     <div class="above-game">
       <p class="game-intro">Join the numbers and get to the <strong>9007199254740992 tile!</strong></p>
       <a class="restart-button">New Game</a>
@@ -41,7 +40,7 @@
         </div>
       </div>
 
-<div class="grid-container">
+      <div class="grid-container">
         <div class="grid-row">
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
@@ -128,9 +127,9 @@
 
       </div>
     </div>
-	  
-<div class="auto-move-container">
-		<p><strong>AUTO MOVE: Right, up and down. Speed: </strong><input type="text" name="auto-move-time" value="" id="auto-move-input-time" onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" size="6" maxlength="8"><strong> ms.</strong> <input type="submit" value="Run" id="auto-move-run" class="auto-move-button"> <input type="submit" value="Stop" id="auto-move-stop" class="auto-move-button"></p>
+
+	<div class="auto-move-container">
+		<p><strong>Move randomly with </strong><input type="text" name="auto-move-time" value="" id="auto-move-input-time" onkeypress='return event.charCode >= 48 && event.charCode <= 57' size="6" maxlength="8"><strong> ms.</strong> <input type="submit" value="Run" id="auto-move-run" class="auto-move-button"> <input type="submit" value="Stop" id="auto-move-stop" class="auto-move-button"></p>
 	</div>
 
     <p class="game-explanation">
@@ -138,12 +137,16 @@
     </p>
     <hr>
     <p>
-    <strong class="important">Note:</strong> This site is <strong class="important">not</strong> the official version of 2048. You can play the original version on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites (this one) are derivatives or fakes, and should be used with caution.
+    <strong class="important">Note:</strong> This site is NOT the official version of 2048. You can play the official one here: <a href="http://git.io/2048">http://git.io/2048.</a>
     </p>
     <hr>
+    <p>This mod is based on source code of 2048 and 9007199254740992 games.</p>
     <p>
-    Original 2048 Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    2048 was originally created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
+    <p>9007199254740992 is a mod of 2048 created by <a href="http://www.csie.ntu.edu.tw/~b01902112/9007199254740992/">JamesQAQ.</a></p>
+    <p>The main difference from 9007199254740992 is that this mod keeps your progress</p>
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://i2.wp.com/blackpinkupdate.com/wp-content/uploads/2020/06/BLACKPINK-Logo-PNG-Transparent.png?resize=1024%2C404&amp;ssl=1" width="500" height="180">
   </div>
 
   <script src="js/bind_polyfill.js"></script>
@@ -157,5 +160,11 @@
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
   <script src="js/auto_move.js"></script>
+  <!--<script>window.scrollTo(0,document.body.scrollHeight);</script>-->
+  <style>
+	hr.tw{
+		border-color: blue;
+	}
+  </style>
 </body>
 </html>
